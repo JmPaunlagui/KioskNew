@@ -524,7 +524,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::KioskFINALFINAL.Properties.Resources.ABRAHAM_1403;
+            this.pictureBox1.Image = global::KioskFINALFINAL.Properties.Resources.abraham1;
             this.pictureBox1.Location = new System.Drawing.Point(67, 67);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(139, 167);
@@ -544,7 +544,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::KioskFINALFINAL.Properties.Resources.BARUNDIA_1028;
+            this.pictureBox3.Image = global::KioskFINALFINAL.Properties.Resources.barundia;
             this.pictureBox3.Location = new System.Drawing.Point(67, 67);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(139, 167);
@@ -554,7 +554,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::KioskFINALFINAL.Properties.Resources.BELARMINO_1485;
+            this.pictureBox4.Image = global::KioskFINALFINAL.Properties.Resources.bea;
             this.pictureBox4.Location = new System.Drawing.Point(67, 67);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(139, 167);
@@ -564,7 +564,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::KioskFINALFINAL.Properties.Resources.BETE_1265;
+            this.pictureBox5.Image = global::KioskFINALFINAL.Properties.Resources.bete;
             this.pictureBox5.Location = new System.Drawing.Point(67, 67);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(139, 167);
@@ -584,7 +584,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::KioskFINALFINAL.Properties.Resources.CALINAGAN_1513;
+            this.pictureBox7.Image = global::KioskFINALFINAL.Properties.Resources.flor;
             this.pictureBox7.Location = new System.Drawing.Point(67, 67);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(139, 167);
@@ -674,7 +674,7 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Image = global::KioskFINALFINAL.Properties.Resources.NARSOLIS_MARICAR_8195;
+            this.pictureBox16.Image = global::KioskFINALFINAL.Properties.Resources.narsolis;
             this.pictureBox16.Location = new System.Drawing.Point(67, 67);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(139, 167);

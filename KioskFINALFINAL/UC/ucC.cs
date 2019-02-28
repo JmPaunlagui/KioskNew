@@ -15,7 +15,7 @@ namespace KioskFINALFINAL.UC
         public ucC()
         {
             InitializeComponent();
-            ucExam1.BringToFront();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,21 +27,6 @@ namespace KioskFINALFINAL.UC
                 Form1.Instance.PnlContainer.Controls.Add(main);
             }
             Form1.Instance.PnlContainer.Controls["ucMain"].BringToFront();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            ucExam1.BringToFront();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            ucActivities1.BringToFront();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            ucUPCOMINGE1.BringToFront();
         }
     }
 }

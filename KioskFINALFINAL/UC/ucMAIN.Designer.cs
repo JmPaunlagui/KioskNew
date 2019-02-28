@@ -202,7 +202,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(248, 120);
             this.label17.TabIndex = 30;
-            this.label17.Text = "Academic, non-academic, administrator, principal";
+            this.label17.Text = "SHS Teacher, administrator";
             this.label17.Click += new System.EventHandler(this.panelSP_Click);
             // 
             // panelC
@@ -225,7 +225,8 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(248, 66);
             this.label23.TabIndex = 22;
-            this.label23.Text = "Exam, activities, upcoming events";
+            this.label23.Text = "Announcement of events";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label23.Click += new System.EventHandler(this.panelC_Click);
             // 
             // pictureBox2

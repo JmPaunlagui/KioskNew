@@ -407,5 +407,8 @@
   <ItemGroup>
     <None Include="Resources\NARSOLIS MARICAR_8195.JPG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puyod.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

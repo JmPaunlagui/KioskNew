@@ -39,7 +39,7 @@
             this.label2.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(91, 223);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1099, 349);
+            this.label2.Size = new System.Drawing.Size(1099, 407);
             this.label2.TabIndex = 9;
             this.label2.Text = resources.GetString("label2.Text");
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -50,9 +50,9 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(377, 121);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(515, 40);
+            this.label1.Size = new System.Drawing.Size(483, 40);
             this.label1.TabIndex = 8;
-            this.label1.Text = "How to get a promissory note?";
+            this.label1.Text = "How to get a promissory note";
             // 
             // button1
             // 

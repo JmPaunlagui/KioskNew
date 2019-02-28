@@ -50,9 +50,9 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(306, 121);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(700, 40);
+            this.label1.Size = new System.Drawing.Size(565, 40);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Getting a new ID in case you lost your ID?";
+            this.label1.Text = "Getting a new ID in case you lost it";
             // 
             // button1
             // 

@@ -40,8 +40,8 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(1099, 225);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Go to the registrar and ask for your SOA, bring your assessment with you then you" +
-    " will get your Statement of Account (SOA).\r\n\r\n";
+            this.label2.Text = "Go to the registrar and ask for your SOA, bring your assessment, then you will ge" +
+    "t your Statement of Account (SOA).\r\n\r\n";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -50,9 +50,9 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(488, 183);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(308, 40);
+            this.label1.Size = new System.Drawing.Size(288, 40);
             this.label1.TabIndex = 2;
-            this.label1.Text = "How to get S.O.A?";
+            this.label1.Text = "How to get S.O.A";
             // 
             // button1
             // 

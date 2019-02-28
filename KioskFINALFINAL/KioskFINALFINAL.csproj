@@ -410,5 +410,38 @@
   <ItemGroup>
     <None Include="Resources\puyod.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ortega.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marcelo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mayuga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\belle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marvin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paulus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitancor1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asia.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

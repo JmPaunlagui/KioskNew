@@ -1,2 +1,3 @@
-# KioskNew
-new
+"# kiosk" 
+"# NewKiosk" 
+"# NewKiosk" 

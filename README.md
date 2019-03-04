@@ -1,5 +1,1 @@
-"# kiosk" 
-"# NewKiosk" 
-"# NewKiosk" 
-"# NewKiosk" 
-"# NewKiosk" 
+"# KIOSKnewFile"

@@ -27,27 +27,51 @@ namespace KioskFINALFINAL.UC
                 Form1.Instance.PnlContainer.Controls.Add(main);
             }
             Form1.Instance.PnlContainer.Controls["ucMain"].BringToFront();
+            return;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             ucMission1.BringToFront();
-            
+            ucMission1.Show();
+
+            ucVision1.Hide();
+           
+            ucStiHymn1.Hide();
+
+            return;
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             ucVision1.BringToFront();
+            ucVision1.Show();
+
+            ucMission1.Hide();
+            
+            ucStiHymn1.Hide();
+
+            return;
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             ucStiHymn1.BringToFront();
+            ucStiHymn1.Show();
+
+            ucMission1.Hide();
+           
+            ucVision1.Hide();
+
+            return;
+
         }
 
         private void ucStiHymn1_Load(object sender, EventArgs e)
         {
-            ucMission1.BringToFront();
+           // ucMission1.BringToFront();
         }
     }
 }

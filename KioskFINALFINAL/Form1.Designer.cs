@@ -30,39 +30,26 @@
         {
             this.components = new System.ComponentModel.Container();
             this.PanelRGBstrip = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panelContainer = new System.Windows.Forms.Panel();
-            this.R = new System.Windows.Forms.Timer(this.components);
-            this.G = new System.Windows.Forms.Timer(this.components);
-            this.B = new System.Windows.Forms.Timer(this.components);
             this.ucMAIN1 = new KioskFINALFINAL.UC.ucMAIN();
             this.ucASTI1 = new KioskFINALFINAL.UC.ucASTI();
             this.ucSP1 = new KioskFINALFINAL.UC.ucSP();
             this.ucC1 = new KioskFINALFINAL.UC.ucC();
             this.ucGI1 = new KioskFINALFINAL.UC.ucGI();
-            this.PanelRGBstrip.SuspendLayout();
+            this.R = new System.Windows.Forms.Timer(this.components);
+            this.G = new System.Windows.Forms.Timer(this.components);
+            this.B = new System.Windows.Forms.Timer(this.components);
             this.panelContainer.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelRGBstrip
             // 
             this.PanelRGBstrip.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.PanelRGBstrip.Controls.Add(this.label1);
             this.PanelRGBstrip.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelRGBstrip.Location = new System.Drawing.Point(0, 0);
             this.PanelRGBstrip.Name = "PanelRGBstrip";
             this.PanelRGBstrip.Size = new System.Drawing.Size(1280, 30);
             this.PanelRGBstrip.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(451, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(386, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelContainer
             // 
@@ -76,24 +63,6 @@
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(1280, 690);
             this.panelContainer.TabIndex = 1;
-            // 
-            // R
-            // 
-            this.R.Enabled = true;
-            this.R.Interval = 30;
-            this.R.Tick += new System.EventHandler(this.R_Tick);
-            // 
-            // G
-            // 
-            this.G.Enabled = true;
-            this.G.Interval = 30;
-            this.G.Tick += new System.EventHandler(this.G_Tick);
-            // 
-            // B
-            // 
-            this.B.Enabled = true;
-            this.B.Interval = 30;
-            this.B.Tick += new System.EventHandler(this.B_Tick);
             // 
             // ucMAIN1
             // 
@@ -136,6 +105,24 @@
             this.ucGI1.Size = new System.Drawing.Size(1280, 690);
             this.ucGI1.TabIndex = 1;
             // 
+            // R
+            // 
+            this.R.Enabled = true;
+            this.R.Interval = 30;
+            this.R.Tick += new System.EventHandler(this.R_Tick);
+            // 
+            // G
+            // 
+            this.G.Enabled = true;
+            this.G.Interval = 30;
+            this.G.Tick += new System.EventHandler(this.G_Tick);
+            // 
+            // B
+            // 
+            this.B.Enabled = true;
+            this.B.Interval = 30;
+            this.B.Tick += new System.EventHandler(this.B_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -148,7 +135,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.PanelRGBstrip.ResumeLayout(false);
             this.panelContainer.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -166,7 +152,6 @@
         private System.Windows.Forms.Timer R;
         private System.Windows.Forms.Timer G;
         private System.Windows.Forms.Timer B;
-        private System.Windows.Forms.Label label1;
     }
 }
 

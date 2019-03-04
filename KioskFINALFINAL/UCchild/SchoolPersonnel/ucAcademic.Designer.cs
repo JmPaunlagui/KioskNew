@@ -187,7 +187,7 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(13, 13);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(275, 400);
+            this.panel2.Size = new System.Drawing.Size(275, 320);
             this.panel2.TabIndex = 0;
             // 
             // label1
@@ -206,7 +206,7 @@
             this.panel5.Controls.Add(this.pictureBox2);
             this.panel5.Location = new System.Drawing.Point(294, 13);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(275, 400);
+            this.panel5.Size = new System.Drawing.Size(275, 320);
             this.panel5.TabIndex = 1;
             // 
             // label2
@@ -225,7 +225,7 @@
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Location = new System.Drawing.Point(575, 13);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(275, 400);
+            this.panel3.Size = new System.Drawing.Size(275, 320);
             this.panel3.TabIndex = 1;
             // 
             // label3
@@ -242,9 +242,9 @@
             this.panel4.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Location = new System.Drawing.Point(13, 419);
+            this.panel4.Location = new System.Drawing.Point(13, 339);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(275, 400);
+            this.panel4.Size = new System.Drawing.Size(275, 320);
             this.panel4.TabIndex = 1;
             // 
             // label4
@@ -261,9 +261,9 @@
             this.panel6.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel6.Controls.Add(this.label5);
             this.panel6.Controls.Add(this.pictureBox5);
-            this.panel6.Location = new System.Drawing.Point(294, 419);
+            this.panel6.Location = new System.Drawing.Point(294, 339);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(275, 400);
+            this.panel6.Size = new System.Drawing.Size(275, 320);
             this.panel6.TabIndex = 2;
             // 
             // label5
@@ -280,9 +280,9 @@
             this.panel7.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel7.Controls.Add(this.label6);
             this.panel7.Controls.Add(this.pictureBox6);
-            this.panel7.Location = new System.Drawing.Point(575, 419);
+            this.panel7.Location = new System.Drawing.Point(575, 339);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(275, 400);
+            this.panel7.Size = new System.Drawing.Size(275, 320);
             this.panel7.TabIndex = 3;
             // 
             // label6
@@ -299,9 +299,9 @@
             this.panel8.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel8.Controls.Add(this.label7);
             this.panel8.Controls.Add(this.pictureBox7);
-            this.panel8.Location = new System.Drawing.Point(13, 825);
+            this.panel8.Location = new System.Drawing.Point(13, 665);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(275, 400);
+            this.panel8.Size = new System.Drawing.Size(275, 320);
             this.panel8.TabIndex = 4;
             // 
             // label7
@@ -318,9 +318,9 @@
             this.panel9.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel9.Controls.Add(this.label8);
             this.panel9.Controls.Add(this.pictureBox8);
-            this.panel9.Location = new System.Drawing.Point(294, 825);
+            this.panel9.Location = new System.Drawing.Point(294, 665);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(275, 400);
+            this.panel9.Size = new System.Drawing.Size(275, 320);
             this.panel9.TabIndex = 5;
             // 
             // label8
@@ -337,9 +337,9 @@
             this.panel10.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel10.Controls.Add(this.label9);
             this.panel10.Controls.Add(this.pictureBox9);
-            this.panel10.Location = new System.Drawing.Point(575, 825);
+            this.panel10.Location = new System.Drawing.Point(575, 665);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(275, 400);
+            this.panel10.Size = new System.Drawing.Size(275, 320);
             this.panel10.TabIndex = 6;
             // 
             // label9
@@ -356,9 +356,9 @@
             this.panel11.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel11.Controls.Add(this.label10);
             this.panel11.Controls.Add(this.pictureBox10);
-            this.panel11.Location = new System.Drawing.Point(13, 1231);
+            this.panel11.Location = new System.Drawing.Point(13, 991);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(275, 400);
+            this.panel11.Size = new System.Drawing.Size(275, 320);
             this.panel11.TabIndex = 7;
             // 
             // label10
@@ -375,9 +375,9 @@
             this.panel12.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel12.Controls.Add(this.label11);
             this.panel12.Controls.Add(this.pictureBox11);
-            this.panel12.Location = new System.Drawing.Point(294, 1231);
+            this.panel12.Location = new System.Drawing.Point(294, 991);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(275, 400);
+            this.panel12.Size = new System.Drawing.Size(275, 320);
             this.panel12.TabIndex = 8;
             // 
             // label11
@@ -394,9 +394,9 @@
             this.panel13.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel13.Controls.Add(this.label12);
             this.panel13.Controls.Add(this.pictureBox12);
-            this.panel13.Location = new System.Drawing.Point(575, 1231);
+            this.panel13.Location = new System.Drawing.Point(575, 991);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(275, 400);
+            this.panel13.Size = new System.Drawing.Size(275, 320);
             this.panel13.TabIndex = 9;
             // 
             // label12
@@ -413,9 +413,9 @@
             this.panel14.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel14.Controls.Add(this.label13);
             this.panel14.Controls.Add(this.pictureBox13);
-            this.panel14.Location = new System.Drawing.Point(13, 1637);
+            this.panel14.Location = new System.Drawing.Point(13, 1317);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(275, 400);
+            this.panel14.Size = new System.Drawing.Size(275, 320);
             this.panel14.TabIndex = 10;
             // 
             // label13
@@ -432,9 +432,9 @@
             this.panel15.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel15.Controls.Add(this.label14);
             this.panel15.Controls.Add(this.pictureBox14);
-            this.panel15.Location = new System.Drawing.Point(294, 1637);
+            this.panel15.Location = new System.Drawing.Point(294, 1317);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(275, 400);
+            this.panel15.Size = new System.Drawing.Size(275, 320);
             this.panel15.TabIndex = 11;
             // 
             // label14
@@ -451,9 +451,9 @@
             this.panel16.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel16.Controls.Add(this.label15);
             this.panel16.Controls.Add(this.pictureBox15);
-            this.panel16.Location = new System.Drawing.Point(575, 1637);
+            this.panel16.Location = new System.Drawing.Point(575, 1317);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(275, 400);
+            this.panel16.Size = new System.Drawing.Size(275, 320);
             this.panel16.TabIndex = 12;
             // 
             // label15
@@ -470,9 +470,9 @@
             this.panel17.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel17.Controls.Add(this.label16);
             this.panel17.Controls.Add(this.pictureBox16);
-            this.panel17.Location = new System.Drawing.Point(13, 2043);
+            this.panel17.Location = new System.Drawing.Point(13, 1643);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(275, 400);
+            this.panel17.Size = new System.Drawing.Size(275, 320);
             this.panel17.TabIndex = 13;
             // 
             // label16
@@ -489,9 +489,9 @@
             this.panel18.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel18.Controls.Add(this.label17);
             this.panel18.Controls.Add(this.pictureBox17);
-            this.panel18.Location = new System.Drawing.Point(294, 2043);
+            this.panel18.Location = new System.Drawing.Point(294, 1643);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(275, 400);
+            this.panel18.Size = new System.Drawing.Size(275, 320);
             this.panel18.TabIndex = 14;
             // 
             // label17
@@ -508,9 +508,9 @@
             this.panel19.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel19.Controls.Add(this.label18);
             this.panel19.Controls.Add(this.pictureBox18);
-            this.panel19.Location = new System.Drawing.Point(575, 2043);
+            this.panel19.Location = new System.Drawing.Point(575, 1643);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(275, 400);
+            this.panel19.Size = new System.Drawing.Size(275, 320);
             this.panel19.TabIndex = 15;
             // 
             // label18
@@ -624,7 +624,7 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Image = global::KioskFINALFINAL.Properties.Resources.no_pic;
+            this.pictureBox11.Image = global::KioskFINALFINAL.Properties.Resources.geluz;
             this.pictureBox11.Location = new System.Drawing.Point(67, 67);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(139, 167);

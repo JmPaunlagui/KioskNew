@@ -19,7 +19,7 @@ namespace KioskFINALFINAL.UC
         public ucGI()
         {
             InitializeComponent();
-            ucMainn1.BringToFront();
+           // ucMainn1.BringToFront();
         }
         public static ucGI Instance
         {
@@ -46,8 +46,10 @@ namespace KioskFINALFINAL.UC
                 ucMAIN main = new ucMAIN();
                 main.Dock = DockStyle.Fill;
                 Form1.Instance.PnlContainer.Controls.Add(main);
+                return;
             }
             Form1.Instance.PnlContainer.Controls["ucMain"].BringToFront();
+            return;
         }
 
         private void panelContainer_Leave(object sender, EventArgs e)
@@ -92,6 +94,7 @@ namespace KioskFINALFINAL.UC
             ucMainn ucmainn = new ucMainn();
             ucmainn.Dock = DockStyle.Fill;
             panelContainer.Controls.Add(ucmainn);
+            return;
         }
     }
 }

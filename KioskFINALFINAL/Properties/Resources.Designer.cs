@@ -163,6 +163,16 @@ namespace KioskFINALFINAL.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap geluz {
+            get {
+                object obj = ResourceManager.GetObject("geluz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_Administrator_Male_48px {
             get {
                 object obj = ResourceManager.GetObject("icons8_Administrator_Male_48px", resourceCulture);

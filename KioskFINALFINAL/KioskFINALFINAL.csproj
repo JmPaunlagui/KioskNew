@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\johnp\Desktop\Kiosk\</PublishUrl>
+    <PublishUrl>C:\Users\johnp\Desktop\Kiosk2.0\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -24,7 +24,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>http://localhost/KioskFINALFINAL/</UpdateUrl>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -481,6 +481,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\abraham1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geluz.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -24,8 +24,10 @@ namespace KioskFINALFINAL.UC
                 ucMAIN main = new ucMAIN();
                 main.Dock = DockStyle.Fill;
                 Form1.Instance.PnlContainer.Controls.Add(main);
+                return;
             }
             Form1.Instance.PnlContainer.Controls["ucMain"].BringToFront();
+            return;
 
            
         }
@@ -33,6 +35,9 @@ namespace KioskFINALFINAL.UC
         private void button4_Click(object sender, EventArgs e)
         {
             ucAcademic1.BringToFront();
+            ucAcademic1.Show();
+
+            ucAdmin1.Hide();
         }
 
         
@@ -40,6 +45,9 @@ namespace KioskFINALFINAL.UC
         private void button3_Click(object sender, EventArgs e)
         {
             ucAdmin1.BringToFront();
+            ucAdmin1.Show();
+
+            ucAcademic1.Hide();
         }
 
        

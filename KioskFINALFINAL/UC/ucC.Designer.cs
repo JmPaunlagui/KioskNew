@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -49,6 +47,8 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -70,36 +70,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1280, 693);
             this.panel2.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(576, 92);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 45);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Events";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Image = global::KioskFINALFINAL.Properties.Resources.icons8_Home_48px;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(11, 15);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 52);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Home";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 
@@ -282,6 +252,36 @@
             this.label6.Size = new System.Drawing.Size(165, 23);
             this.label6.TabIndex = 2;
             this.label6.Text = "No Exact Date :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(576, 92);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(138, 45);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Events";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Image = global::KioskFINALFINAL.Properties.Resources.icons8_Home_48px;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(11, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(159, 52);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Home";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ucC
             // 

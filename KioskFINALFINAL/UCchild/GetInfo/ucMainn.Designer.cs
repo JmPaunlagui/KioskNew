@@ -85,11 +85,11 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(75, 69);
+            this.label3.Location = new System.Drawing.Point(58, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(259, 66);
+            this.label3.Size = new System.Drawing.Size(290, 66);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Getting a new ID in case you lost your ID\r\n";
+            this.label3.Text = "Getting a new ID in case you lost it\r\n";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label3.Click += new System.EventHandler(this.panel3_Click);
             // 
@@ -199,7 +199,7 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(11, 15);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 52);
+            this.button1.Size = new System.Drawing.Size(159, 52);
             this.button1.TabIndex = 8;
             this.button1.Text = "Home";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

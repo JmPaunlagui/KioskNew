@@ -24,8 +24,10 @@ namespace KioskFINALFINAL.UC
                 ucGI info = new ucGI();
                 info.Dock = DockStyle.Fill;
                 Form1.Instance.PnlContainer.Controls.Add(info);
+                
             }
             Form1.Instance.PnlContainer.Controls["ucGI"].BringToFront();
+            return;
         }
         //GI click end
 
@@ -37,8 +39,10 @@ namespace KioskFINALFINAL.UC
                 ucC ucC = new ucC();
                 ucC.Dock = DockStyle.Fill;
                 Form1.Instance.PnlContainer.Controls.Add(ucC);
+                
             }
             Form1.Instance.PnlContainer.Controls["ucC"].BringToFront();
+            return;
         }
         //C click end
 
@@ -50,8 +54,10 @@ namespace KioskFINALFINAL.UC
                 ucSP SP = new ucSP();
                 SP.Dock = DockStyle.Fill;
                 Form1.Instance.PnlContainer.Controls.Add(SP);
+                
             }
             Form1.Instance.PnlContainer.Controls["ucSP"].BringToFront();
+            return;
         }
         //SP click end
 
@@ -63,8 +69,10 @@ namespace KioskFINALFINAL.UC
                 ucASTI STI = new ucASTI();
                 STI.Dock = DockStyle.Fill;
                 Form1.Instance.PnlContainer.Controls.Add(STI);
+               
             }
             Form1.Instance.PnlContainer.Controls["ucASTI"].BringToFront();
+            return;
         }
         //ASTI click end
 

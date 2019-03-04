@@ -42,7 +42,7 @@ namespace KioskFINALFINAL.UC
                 
             }
             Form1.Instance.PnlContainer.Controls["ucC"].BringToFront();
-            return;
+           
         }
         //C click end
 
@@ -57,7 +57,7 @@ namespace KioskFINALFINAL.UC
                 
             }
             Form1.Instance.PnlContainer.Controls["ucSP"].BringToFront();
-            return;
+            
         }
         //SP click end
 
@@ -72,7 +72,7 @@ namespace KioskFINALFINAL.UC
                
             }
             Form1.Instance.PnlContainer.Controls["ucASTI"].BringToFront();
-            return;
+            
         }
         //ASTI click end
 

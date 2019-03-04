@@ -30,8 +30,6 @@
         {
             this.panel3 = new System.Windows.Forms.Panel();
             this.ucAcademic1 = new KioskFINALFINAL.UCchild.SchoolPersonnels.ucAcademic();
-            this.ucNonAcademic1 = new KioskFINALFINAL.UCchild.SchoolPersonnels.ucNonAcademic();
-            this.ucPrincipal1 = new KioskFINALFINAL.UCchild.SchoolPersonnels.ucPrincipal();
             this.ucAdmin1 = new KioskFINALFINAL.UCchild.SchoolPersonnels.ucAdmin();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
@@ -45,8 +43,6 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.ucAcademic1);
-            this.panel3.Controls.Add(this.ucNonAcademic1);
-            this.panel3.Controls.Add(this.ucPrincipal1);
             this.panel3.Controls.Add(this.ucAdmin1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(327, 0);
@@ -62,22 +58,7 @@
             this.ucAcademic1.Padding = new System.Windows.Forms.Padding(5);
             this.ucAcademic1.Size = new System.Drawing.Size(953, 693);
             this.ucAcademic1.TabIndex = 0;
-            // 
-            // ucNonAcademic1
-            // 
-            this.ucNonAcademic1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucNonAcademic1.Location = new System.Drawing.Point(0, 0);
-            this.ucNonAcademic1.Name = "ucNonAcademic1";
-            this.ucNonAcademic1.Size = new System.Drawing.Size(953, 693);
-            this.ucNonAcademic1.TabIndex = 1;
-            // 
-            // ucPrincipal1
-            // 
-            this.ucPrincipal1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucPrincipal1.Location = new System.Drawing.Point(0, 0);
-            this.ucPrincipal1.Name = "ucPrincipal1";
-            this.ucPrincipal1.Size = new System.Drawing.Size(953, 693);
-            this.ucPrincipal1.TabIndex = 3;
+           
             // 
             // ucAdmin1
             // 
@@ -189,8 +170,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private UCchild.SchoolPersonnels.ucAcademic ucAcademic1;
-        private UCchild.SchoolPersonnels.ucNonAcademic ucNonAcademic1;
+       
         private UCchild.SchoolPersonnels.ucAdmin ucAdmin1;
-        private UCchild.SchoolPersonnels.ucPrincipal ucPrincipal1;
+       
     }
 }

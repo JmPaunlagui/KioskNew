@@ -29,5 +29,15 @@ namespace KioskFINALFINAL.UC
             Form1.Instance.PnlContainer.Controls["ucMain"].BringToFront();
             return;
         }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

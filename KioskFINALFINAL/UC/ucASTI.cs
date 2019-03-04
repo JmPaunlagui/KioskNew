@@ -27,7 +27,7 @@ namespace KioskFINALFINAL.UC
                 Form1.Instance.PnlContainer.Controls.Add(main);
             }
             Form1.Instance.PnlContainer.Controls["ucMain"].BringToFront();
-            return;
+            return ;
         }
 
         private void button4_Click(object sender, EventArgs e)

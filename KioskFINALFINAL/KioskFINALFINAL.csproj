@@ -109,24 +109,6 @@
     <Compile Include="UCchild\AboutSTI\ucVision.Designer.cs">
       <DependentUpon>ucVision.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCchild\Calendar\ucActivities.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\Calendar\ucActivities.Designer.cs">
-      <DependentUpon>ucActivities.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\Calendar\ucExam.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\Calendar\ucExam.Designer.cs">
-      <DependentUpon>ucExam.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\Calendar\ucUPCOMINGE.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\Calendar\ucUPCOMINGE.Designer.cs">
-      <DependentUpon>ucUPCOMINGE.cs</DependentUpon>
-    </Compile>
     <Compile Include="UCchild\GetInfo\ucClearance.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -181,18 +163,6 @@
     <Compile Include="UCchild\SchoolPersonnel\ucAdmin.Designer.cs">
       <DependentUpon>ucAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucNonAcademic.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucNonAcademic.Designer.cs">
-      <DependentUpon>ucNonAcademic.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucPrincipal.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucPrincipal.Designer.cs">
-      <DependentUpon>ucPrincipal.cs</DependentUpon>
-    </Compile>
     <Compile Include="UC\ucA.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -246,15 +216,6 @@
     <EmbeddedResource Include="UCchild\AboutSTI\ucVision.resx">
       <DependentUpon>ucVision.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCchild\Calendar\ucActivities.resx">
-      <DependentUpon>ucActivities.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UCchild\Calendar\ucExam.resx">
-      <DependentUpon>ucExam.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UCchild\Calendar\ucUPCOMINGE.resx">
-      <DependentUpon>ucUPCOMINGE.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UCchild\GetInfo\ucClearance.resx">
       <DependentUpon>ucClearance.cs</DependentUpon>
     </EmbeddedResource>
@@ -281,12 +242,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCchild\SchoolPersonnel\ucAdmin.resx">
       <DependentUpon>ucAdmin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UCchild\SchoolPersonnel\ucNonAcademic.resx">
-      <DependentUpon>ucNonAcademic.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UCchild\SchoolPersonnel\ucPrincipal.resx">
-      <DependentUpon>ucPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC\ucA.resx">
       <DependentUpon>ucA.cs</DependentUpon>

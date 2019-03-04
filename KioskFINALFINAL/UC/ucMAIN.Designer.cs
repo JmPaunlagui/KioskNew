@@ -303,19 +303,16 @@
             // R
             // 
             this.R.Enabled = true;
-            this.R.Interval = 30;
             this.R.Tick += new System.EventHandler(this.R_Tick);
             // 
             // G
             // 
             this.G.Enabled = true;
-            this.G.Interval = 30;
             this.G.Tick += new System.EventHandler(this.G_Tick);
             // 
             // B
             // 
             this.B.Enabled = true;
-            this.B.Interval = 30;
             this.B.Tick += new System.EventHandler(this.B_Tick);
             // 
             // ucMAIN

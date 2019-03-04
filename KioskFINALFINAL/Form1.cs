@@ -66,7 +66,6 @@ namespace KioskFINALFINAL
                     R.Stop();
                     G.Start();
 
-                    //label1.Text = "こ ん に ち は";
                 }
             }
 
@@ -79,8 +78,7 @@ namespace KioskFINALFINAL
                 {
                     R.Stop();
                     G.Start();
-                    //label1.Text = "May I help you?";
-
+             
                 }
             }
         }
@@ -96,7 +94,7 @@ namespace KioskFINALFINAL
                 {
                     G.Stop();
                     B.Start();
-                   // label1.Text = "Hola";
+                
                 }
             }
 
@@ -109,7 +107,7 @@ namespace KioskFINALFINAL
                 {
                     G.Stop();
                     B.Start();
-                   // label1.Text = "Hello";
+                   
                 }
             }
         }
@@ -125,7 +123,7 @@ namespace KioskFINALFINAL
                 {
                     B.Stop();
                     R.Start();
-                   // label1.Text = "안 녕 하 세 요";
+                 
                 }
             }
 
@@ -138,7 +136,7 @@ namespace KioskFINALFINAL
                 {
                     B.Stop();
                     R.Start();
-                  //  label1.Text = "Ciao";
+                 
                 }
             }
         }
